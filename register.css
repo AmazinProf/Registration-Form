@@ -1,0 +1,25 @@
+body {
+    background-color: rgba(25, 25, 25, 0.9);
+    margin: 300px;
+}
+
+h1 {
+    text-align: center;
+}
+
+a {
+    display: block;
+    text-align: center;
+}
+
+.table {
+    margin: auto;
+}
+
+tr {
+    height: 35px;
+}
+
+input {
+    outline: none
+}
