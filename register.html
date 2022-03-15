@@ -7,46 +7,27 @@
 </head>
 
 <body>
-    <h1>Registration Form</h1>
-    <form>
-        <table class="table">
-            <tr class="firstName">
-                <td>
-                    First Name:
-                </td>
-                <td>
-                    <input type="text" name="firstName">
-                </td>
-            </tr>
-            <tr class="lastName">
-                <td>Last Name:</td>
-                <td>
-                    <input type="text" name="lastName">
-                </td>
-            </tr>
-            <tr class="otherNames">
-                <td>Other Names:</td>
-                <td>
-                    <input type="text" name="otherNames">
-                </td>
-            </tr>
-            <tr class="email">
-                <td>Email:</td>
-                <td>
-                    <input type="email" name="email">
-                </td>
-            </tr>
-            <tr class="phone">
-                <td>Phone:</td>
-                <td>
-                    <input type="tel" name="phone">
-                </td>
-            </tr>
+    <h1 class="heading">Registration Form</h1>
+    <div class="form">
+        <form>
 
-        </table>
-    </form>
-    <div class="footer">
+            <label for="firstName" class="firstName">First Name:</label><br>
+            <input type="text" name="firstName"><br>
+            <label for="lastName" class="lastName">Last Name:</label><br>
+            <input type="text" name="lastName"><br>
+            <label for="otherNames" class="other">Other Names:</label><br>
+            <input type="text" name="otherNames"><br>
+            <label for="email" class="email">Email:</label><br>
+            <input type="email" name="email"><br>
+            <label for="phone" class="phone">Phone:</label><br>
+            <input type="tel" name="phone"><br>
+
+
+        </form><br>
         <a href="login.html"><button>Submit</button></a>
+    </div>
+    <div class="footer">
+
     </div>
 
 </body>

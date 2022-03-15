@@ -1,25 +1,31 @@
 body {
     background-color: rgba(25, 25, 25, 0.9);
-    margin: 300px;
+    width: 300px;
+    margin: 200px auto;
+}
+
+label {
+    width: 100%;
+    position: relative;
+    left: 10px;
+    top: 20px;
 }
 
 h1 {
     text-align: center;
-}
-
-a {
-    display: block;
-    text-align: center;
-}
-
-.table {
-    margin: auto;
-}
-
-tr {
-    height: 35px;
+    position: relative;
+    left: 15px;
 }
 
 input {
-    outline: none
+    position: relative;
+    left: 50%;
+    right: 50%;
+}
+
+button {
+    position: relative;
+    left: 25%;
+    margin: auto;
+    width: 50%;
 }
